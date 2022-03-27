@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-row-gap: 5px;
+            grid-column-gap: 5px;
+            grid-template-areas: "one one one"
+                                "two two three three"
+                                "four four four four";
+        }
+        .grid-item {
+            padding: 2rem;
+            background-color: #333;
+            color: #fff;
+        }
+        #one{
+            grid-area: one;
+        }
+        #two{
+            grid-area: two;
+        }
+        #three{
+            grid-area: three;
+        }
+        #four{
+            grid-area: four;
+        }
+    </style>
+</head>
+<body>
+    <!-- .grid-container -->
+    <two class="grid-container">
+        <!-- .grid-item*4 -->
+        <div class="grid-item" id="one">Header</div>
+        <div class="grid-item" id="two">Main</div>
+        <div class="grid-item" id="three">Sidebar</div>
+        <div class="grid-item" id="four">Footer</div>
+    </two
+</body>
+</html>
