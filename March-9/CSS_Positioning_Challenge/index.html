@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Positioning</title>
+</head>
+<body>
+    <!-- CSS Box Model & Margin Sharing -->
+    <div class="box1">
+        Box - 1
+    </div>
+    <div class="box2">
+        Box - 2
+    </div>
+    <!-- CSS Positioning -->
+    <div class="divid">
+        <!-- Z-inddex applied for Relative and Fixed -->
+        <div id="d1"><mark>Relative</mark></div>
+        <div id="d2"><mark>Absolute</mark></div>
+        <div id="d3"><mark>Fixed</mark></div>
+        <div id="d4"><mark>Sticky</mark></div>
+    </div>
+
+    <!-- Flex Box -->
+    <div class="flex-container" id="b1"> 
+        <div>ONE</div>
+        <div>TWO</div>
+        <div>THREE</div>
+        <div>FOUR</div>
+    </div>
+    <br>
+    <br>
+    <!-- flex wrap -->
+    <div class="flex-container" id="b2">
+        <div>ONE</div>
+        <div>TWO</div>
+        <div>THREE</div>
+        <div>FOUR</div>
+        <div>ONE</div>
+        <div>TWO</div>
+        <div>THREE</div>
+        <div>FOUR</div>
+        <div>ONE</div>
+        <div>TWO</div>
+        <div>THREE</div>
+        <div>FOUR</div>
+    </div>
+    <br>
+    <br>
+    <!-- column -->
+    <div class="flex-container" id="b3"> 
+        <div>ONE</div>
+        <div>TWO</div>
+        <div>THREE</div>
+        <div>FOUR</div>
+    </div>
+    <!-- Flex grow -->
+    <div class="flex-container" id="b4"> 
+        <div style="flex-grow: 1;">ONE</div>
+        <div style="flex-grow: 2;">TWO</div>
+        <div style="flex-grow: 1;">THREE</div>
+        <div style="flex-grow: 1;">FOUR</div>
+    </div>
+    <!-- Flex shrink -->
+    <div class="flex-container" id="b5"> 
+        <div style="flex-grow: 1;">ONE</div>
+        <div style="flex-grow: 2;">TWO</div>
+        <div style="flex-shrink: 0;">THREE</div>
+        <div style="flex-grow: 1;">FOUR</div>
+    </div>
+    <!-- flex-basis -->
+    <!-- <div class="flex-container" id="6"> 
+        <div>ONE</div>
+        <div style="flex-basis: 500px;">TWO</div>
+        <div style="flex-basis: 200px;">THREE</div>
+        <div>FOUR</div>
+    </div> -->
+</body>
+</html>
