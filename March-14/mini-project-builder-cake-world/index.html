@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CakeWorld</title>
+</head>
+<body>
+<div id="header-container">           
+    <div id="header">
+        <img src="./assets/cake.png" alt="" id="cake-img">
+        <p>Cake World</p>
+    </div>
+</div>
+
+<div id="app-container">
+    <div class="price-container">
+        <h2 style="text-align: center; font-weight: bold;">PRICES</h2>
+        <br>
+        <ul id="prices-ul">
+            <li>Chocolate - 300</li>
+            <li>Strawberry - 100</li>
+            <li>ButterScotch - 200</li>
+            <li>Vannila - 200 </li>
+            <li>Redvelvet - 500</li>
+        </ul>    
+        <img src="./assets//list_template.png" alt="">
+    </div>
+    <div id="cake-container">
+        <img src="./assets/candle.png" alt="" id="candle"> 
+        <div id="cake-redvelvet"></div>
+        <div id="cake-vannila"></div>
+        <div id="cake-butterscotch"></div>
+        <div id="cake-strawberry"></div>
+        <div id="cake-chocolate"></div>
+        <div id="cake-base"></div>
+    </div>
+
+    <div class="price-container">
+        <h2 style="text-align: center; font-weight: bold;">Bill</h2>
+        <br>
+        <ul id="prices-ul">
+            <li id="lic">Chocolate - 300</li>
+            <li id="lis">Strawberry - 100</li>
+            <li id="lisb">ButterScotch - 200</li>
+            <li id="lisv">Vannila - 200 </li>
+            <li id="lisr">Redvelvet - 500</li>    </ul>    
+        <img src="./assets//list_template.png" alt="" id="billimg">    
+    </div>
+</div>
+    <div id="button-container">
+        <button onclick="btnchoc()">Chocolate</button>
+        <button onclick="btnstraw()">Strawberry</button>
+        <button onclick="btnbutter()">Butterscoth</button>
+        <button onclick="btnvannila()">Vannila</button>
+        <button onclick="btnredvelvet()">Redvelvet</button>
+        <button style="background-color: greenyellow; color: black;" onclick="btnbuy()">Buy</button>
+
+    </div>
+</body>
+<script src="/script.js"></script>
+</html>
