@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+    </div>
+    <style>
+        *{
+            padding: 0px;
+            margin:0px;
+        }
+        .container > div{
+            background-color: grey;
+            padding: 1em;
+        }
+        .container > div:nth-child(even){
+            background-color:lightgrey;
+        }
+        .container{
+            display: grid;
+            /* 4 autos for 4 colums, 3 for 3 colums ... */
+            grid-template-columns: auto auto auto auto;
+            /* How much width the colums shud occupy */
+            grid-template-columns: 50% 50%; 
+            /*  */
+            grid-template-columns: 1fr 2fr 1fr;
+            /* or */
+            grid-template-columns: repeat(3, 1fr);
+            /* !wrong 
+            grid-template-columns: repeat(3, 1fr, 2, 2fr); */
+            /* or */
+            /* grid-template-columns: 80px 200px; */
+            /* grid-column-gap: 50px ;
+            grid-row-gap: 50px; */
+            grid-gap: 50px 100px;
+
+            /* gtr - defines the height of each row */
+            height: 100vh;
+            /* grid-template-rows: 30% 50%; */
+            grid-template-rows: auto auto;
+            grid-auto-rows: 100px;
+            grid-auto-rows: minmax(100px, auto);
+            /*                      min    max */
+
+            /* justify-items: center; */
+            /* align-items: end; */
+            
+            /* place-items: center; */
+            /* shorthand for justify item and align item i.e. works both for x & y */
+            /* place-content: center; */
+            /* shorthand for justify content and align content i.e. works both for x & y */
+        }
+    </style>
+
+</body>
+</html>
