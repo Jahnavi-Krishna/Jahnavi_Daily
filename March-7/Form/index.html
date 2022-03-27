@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align:center;">Welcome to Travel India!</h1>
+    <!-- Input Elements -->
+    <h3>Enter your contact details</h3>
+    <form action="">
+        <label for="">Enter name:</label>
+        <input type="text" id="name" value="Name"> <br>
+        Phone: <input type="text"> <br>
+        email: <input type="text"> <br>
+    </form>
+    <!-- Radio Buttons -->
+    <h3>Select a city you want to visit</h3>
+    <form action="">
+        <label>Places</label>
+        <input type="radio" id="place1" name="place" value="Bangalore">Bangalore
+        <input type="radio" id="place2" name="place" value="Hyderabad">Hyderabad
+        <input type="radio" id="place3" name="place" value="Delhi">Delhi
+        <input type="radio" id="place4" name="place" value="Pune">Pune
+        <input type="radio" id="place5" name="place" value="Mumbai">Mumbai
+        <input type="radio" id="place6" name="place" value="Chennai">Chennai
+    </form>
+    <!-- Check Box -->
+    <h3>What kind of experience are you looking for?</h3>
+    <form action="">
+        <input type="checkbox" name="Pilgrimages">Pilgrimages
+        <input type="checkbox" name="Site Seeing">Site Seeing
+        <input type="checkbox" name="Adventure">Adventure
+        <input type="checkbox" name="Family Trip">Family Trip
+    </form>
+    <!-- Drop Down -->
+    <h3>Number of people</h3>
+    <form action="">
+        <!-- This feature works for input
+            <input type="number" min="1" max="30"> -->
+        <select name="number" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+    </form>
+    <!-- Select items -->
+    <h3>Select Items</h3>
+    <form action="">
+        <label for="number">Choose one:</label>
+        <select name="number" id="number" size="4" multiple>
+            <option value="one">one</option>
+        <option value="two">two</option>
+        <option value="three">three</option>
+        <option value="four">four</option>
+        </select>
+    </form>
+    <br>
+    <!-- Field Set -->
+    <h3>Field Set</h3>
+    <fieldset>
+        <legend>Group</legend>
+        <label for="">First Name:</label>
+        <input type="text">
+        <br>
+    </fieldset>
+    <!-- Text Area -->
+    <h3>Comments</h3>
+    <form action="">
+        <textarea name="comment" id="" cols="30" rows ="10"></textarea> <br>
+        <input type="submit">        
+    </form>
+</body>
+</html>
