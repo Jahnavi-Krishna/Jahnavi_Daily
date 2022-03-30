@@ -1,0 +1,10 @@
+body{
+  text-align: center;
+}
+.container {
+  margin: auto;
+  width: 600px;
+}
+input {
+  margin: 10px;
+}
