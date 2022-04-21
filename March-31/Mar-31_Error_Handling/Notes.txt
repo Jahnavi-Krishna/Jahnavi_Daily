@@ -1,0 +1,17 @@
+ERROR HANDLING
+
+2 kind of error: 1.operational error, 2.unexpected error
+
+handling errors in asynchronous function is more important
+
+throw - used to throw error message to the user
+
+try & catch 
+
+WEB SOCKET - a protocol that provides multi-way communication in...
+- 2 way communication between browser and server
+-allows the developer to send chunks over single connection. But on both directions.
+
+$ npm init -y
+
+We handle errors in JS using throw and catch 
