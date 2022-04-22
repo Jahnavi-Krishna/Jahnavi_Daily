@@ -6,9 +6,9 @@ let dburl='mongodb+srv://srihari:Srihari@cluster0.mdwq6.mongodb.net/db2?retryWri
 mongoose.connect(dburl);
 async function run(){
     const user=await  User.create({
-        name:'sri',
+        name:'sriram',
         age:'21',
-        email:'hi@gmail.com',
+        email:'ram@gmail.com',
     })
      
      console.log(user);
