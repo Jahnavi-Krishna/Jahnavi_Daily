@@ -1,0 +1,41 @@
+Express.js
+
+Web application framework
+
+What is Express.js?
+- light weigth server
+- nodejs framework
+- non opinionated(no structure)
+
+Diff b/w node js & Express.js
+- Express is build on node js 
+- building is very easy. Here we only have to worry abt byuilding
+
+How to install express ?
+(npm i loadash)
+$ 
+$ npm i express
+(npm i nodemon)
+
+//$ npm run dev
+$ node index.js
+
+How to build a express api?
+
+MIDDLEWARE
+- something that mediates(works) between 2 points/ 2 things
+- in terms of express those 2 things are request & response 
+-  when UI makes a request, it 1st comes to the middleware and then goes to the api
+
+Midlleware is used for 
+- authentication(checking whether the user has access or not - signin & sign up)
+- logging
+- authorization (checking the role of the user eg- admin, user)
+- for security
+
+- node has open source rights to express and
+- react is maintained by FaceBook
+- angular is maintained by Google
+
+Express Generator
+- Generates the templat for ...
